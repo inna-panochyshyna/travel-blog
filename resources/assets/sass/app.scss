@@ -1,0 +1,122 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Fonts
+@import '~font-awesome/scss/font-awesome';
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Header
+@import 'header';
+
+// Footer
+@import 'footer';
+
+// Sidebar
+@import 'dashboard';
+
+
+
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    margin: 0;
+}
+
+main {
+	margin-top: 70px;
+    min-height: calc(100vh - 120px);
+}
+
+.auth-container {
+    margin-top: 70px;
+    min-height: calc(100vh - 120px);
+    background-image: url(/storage/images/background.png);
+}
+
+.section-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: DarkSlateGray;
+}
+
+.section-slider {
+    min-height: calc(100vh - 120px);
+}
+
+.main-slider > img {
+    height: calc(100vh - 120px);
+    object-fit: cover;
+}
+
+.carousel-caption > h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: #343a40;
+}
+
+.blockquote {
+    padding: 20px 20px 20px 90px;
+    position: relative;
+    font-weight: bold;
+    background-image: url(/storage/images/background.png);
+}
+
+.blockquote:before {
+    content: "\201C";
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: white;
+    background: #343a40;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.35;
+    text-align: center;
+}
+
+.submenu {
+    max-height: 90.5vh;
+    overflow-y: auto; 
+}
+
+.submenu-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.img-post {
+    width: 100%;
+}
+
+.contact-iframe {
+  width: 100%;
+  height: 60vh;
+  border: 0;
+}
+
+.p-contact {
+  line-height: 3;
+}
+
+.img-contact {
+    height: 30px;
+    width: 30px;
+}
+
+.breadcrumb-items {
+    background-color: white!important;
+}
+
+.breadcrumb-items a {
+    color: black!important;
+}

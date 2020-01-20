@@ -1,0 +1,79 @@
+.dashboard-avatar {
+	width: 300px;
+	height: 300px;
+    object-fit: cover;
+    box-shadow: -12px 11px 1px #f2f2f2;
+}
+
+.dashboard-icon {
+	max-width: 40px;
+	max-height: 40px;
+    object-fit: cover;
+}
+
+.dashboard-card {
+	border: none;
+}
+
+.dashboard-activity {
+	min-height: 70vh;
+}
+
+.dashboard-stat {
+	width: 350px;
+	height: 350px;
+	box-shadow: -12px 11px 1px #eee9e9;
+}
+
+.dashboard-stat-img {
+	max-width: 50px;
+	max-height: 50px;
+    object-fit: cover;
+	filter: brightness(0) invert(1);
+}
+
+.stat-title {
+	font-size: 35px;
+}
+
+.stat-img {
+	width: 180px;
+	height: 120px;
+    object-fit: cover;
+}
+
+.title-lp {
+	writing-mode: tb-rl;
+   	transform:rotate(180deg);
+   	white-space: nowrap;
+}
+
+.vgt-custom {
+    font-size: 14px!important;
+}
+
+.vgt-custom > thead > tr > th{
+  	text-align: center;
+}
+
+.edit-column > span {
+  	font-size: 18px!important;
+  	cursor: pointer;
+}
+
+@media (max-width: 400px) {
+	.vgt-custom {
+    	font-size: 11px!important;
+    }
+}
+
+@media (max-width: 370px) {
+	.dashboard-block {
+		padding: 0!important;
+	}
+	.dashboard-stat {
+		width: 280px;
+		height: 350px;
+		margin: 20px 0!important;
+	}
+}
